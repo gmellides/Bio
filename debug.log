@@ -1,0 +1,2 @@
+[1127/080520.069:ERROR:http_transport_win.cc(273)] WinHttpSendRequest: A connection with the server could not be established (0x2efd)
+[1128/073409.043:ERROR:http_transport_win.cc(273)] WinHttpSendRequest: A connection with the server could not be established (0x2efd)

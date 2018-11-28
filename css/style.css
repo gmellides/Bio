@@ -1,0 +1,91 @@
+ul{list-style-type: none;}
+
+li.bullet:before{
+	font-family: 'FontAwesome';
+	content:'\f192';
+	margin: 0 5px 0 -15px;
+	color: black;
+}
+
+kbd{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom:5px;
+	background-color:#2f8aa3;
+}
+
+
+/* Personal Infos*/
+.personal-infos{
+	font-family: 'sans-s-b';
+	font-size:22px;
+	color:rgb(0, 0, 0);
+}
+.personal-item{
+	font-size:20px;
+}
+
+/* Working Experience */
+.wexp-title{
+	font-family:'sans-b';
+	font-size:18px;
+	color:black;
+}
+.wexp-company{
+	font-family: 'sans-l';
+	padding-top:1px;
+	font-size:18px;
+	color:black;
+}
+.wexp-period{
+	font-family: 'roboto-regular';
+	margin-top:1px;
+	font-size:15px;
+	color:#1f809e;
+}
+
+/* Education experience */
+.edexp-title{
+	font-family:'sans-b';
+	padding-top:1px;
+	font-size:18px;
+	color:black;
+}
+.edexp-institute{
+	font-family: 'sans-l';
+	padding-top:1px;
+	font-size:18px;
+	color:black;
+}
+.edexp-period{
+	font-family: 'sans-l';
+	margin-top:1px;
+	font-size:15px;
+	color:#1f809e;
+}
+
+/* Notable Projects*/
+.proj-title{
+	font-family:'sans-b';
+	padding-top:1px;
+	font-size:18px;
+	color:black;
+}
+.proj-type{
+	font-family:'sans-i';
+	padding-top:1px;
+	font-size:14px;
+	color:black;
+}
+.proj-period{
+	font-family: 'sans-l';
+	margin-top:1px;
+	font-size:15px;
+	color:#1f809e;
+}
+
+/* Footer */
+.footer-text{
+	font-family: 'sans-b-i';
+	color: #504c58;
+}

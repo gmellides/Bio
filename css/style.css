@@ -65,7 +65,10 @@ kbd{
 	font-size:18px;
 	color:black;
 }
-
+.normal-text{
+	font-family: 'sans-r';
+	font-size: 19px;
+}
 
 /* Notable Projects*/
 .proj-title{

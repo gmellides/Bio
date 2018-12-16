@@ -14,7 +14,10 @@ kbd{
 	background-color:#2eb5b9;
 }
 
-
+.head-name{
+	font-family: 'roboto-light';
+	font-size: 67px;
+}
 /* Personal Infos*/
 .personal-infos{
 	font-family: 'sans-l';

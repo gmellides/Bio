@@ -1,10 +1,12 @@
+
 ul{list-style-type: none;}
 
 .div-header{
 	z-index: 0;
-	-webkit-box-shadow: -6px 35px 112px -17px rgba(0,0,0,0.75);
-	-moz-box-shadow: -6px 35px 112px -17px rgba(0,0,0,0.75);
-	box-shadow: -6px 35px 112px -17px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -2px 10px 103px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 10px 103px -5px rgba(0,0,0,0.75);
+	box-shadow: -2px 10px 103px -5px rgba(0,0,0,0.75);
+	margin-bottom: -7px;
 }
 .div-infos{
 	position: relative;
@@ -13,8 +15,8 @@ ul{list-style-type: none;}
 }
 .div-content{
 	-webkit-box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
--moz-box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
-box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
+	-moz-box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
+	box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
 }
 li.bullet:before{
 	font-family: 'FontAwesome';

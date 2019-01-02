@@ -58,7 +58,7 @@ box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
 	font-size:18px;
 	color:black;
 }
-.wexp-company{
+.w-cmp{
 	font-family: 'sans-l';
 	padding-top:1px;
 	font-size:18px;
@@ -90,9 +90,9 @@ box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
 	font-size:18sp;
 	color:black;
 }
-.normal-text{
+.n-txt{
 	font-family: 'sans-r';
-	font-size: 19sp;
+	font-size: 15px;
 }
 
 /* Notable Projects*/

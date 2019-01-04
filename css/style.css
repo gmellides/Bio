@@ -1,6 +1,22 @@
+/*
+	Title: style.css
+	Author: Gabriel Mellides
+	Description: 
+*/
 
-ul{list-style-type: none;}
+/* Unordered List Styling */
+ul{
+	list-style-type: none;
+}
 
+li.bullet:before{
+	font-family: 'FontAwesome';
+	content:'\f192'; /* FontAwesome code */
+	margin: 0 5px 0 -15px;
+	color: black;
+}
+
+/* Header Styling shadow */
 .div-header{
 	z-index: 0;
 	-webkit-box-shadow: -2px 10px 103px -5px rgba(0,0,0,0.75);
@@ -8,22 +24,28 @@ ul{list-style-type: none;}
 	box-shadow: -2px 10px 103px -5px rgba(0,0,0,0.75);
 	margin-bottom: -7px;
 }
+/* Information div  */
 .div-infos{
 	position: relative;
 	z-index: -1;
 	background:#2eb5b9;
 }
+
 .div-content{
+
 	-webkit-box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
 	-moz-box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
 	box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
 }
-li.bullet:before{
-	font-family: 'FontAwesome';
-	content:'\f192';
-	margin: 0 5px 0 -15px;
-	color: black;
+
+/* Bootstrap Cards shadow */
+.card-shadow{
+	-webkit-box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
+	box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
 }
+
+
 
 kbd{
 	margin-left: 5px;
@@ -47,11 +69,7 @@ kbd{
 	font-size:20px;
 	color:rgb(255, 255, 255);
 }
-.card-shadow{
-	-webkit-box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
-box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
-}
+
 /* Working Experience */
 .wexp-title{
 	font-family:'sans-b';
@@ -108,7 +126,6 @@ box-shadow: 2px 6px 41px -6px rgba(0,0,0,0.75);
 	font-size:14px;
 	color:black;
 }
-
 
 /* Footer */
 .footer-text{

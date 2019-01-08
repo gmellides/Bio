@@ -32,7 +32,6 @@ li.bullet:before{
 }
 
 .div-content{
-
 	-webkit-box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
 	-moz-box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
 	box-shadow: -7px -31px 99px -33px rgba(0,0,0,0.75);
